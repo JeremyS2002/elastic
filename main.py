@@ -25,9 +25,11 @@ AI_MAX_YAW: int = 45
 AI_PITCH_SPEED: int = 15
 AI_YAW_SPEED: int = -15
 
+TURRET_PORT = "/dev/ttyACM0"
+
 class Turret:
     def __init__(self, min_pitch=TURRET_MIN_PITCH, max_pitch=TURRET_MAX_PITCH, min_yaw=TURRET_MIN_YAW, max_yaw=TURRET_MAX_YAW) -> None:
-        self.arduino = arduino = PyCmdMessenger.ArduinoBoard("/dev/ttyACM0", baud_rate=9600)
+        self.arduino = arduino = PyCmdMessenger.ArduinoBoard(TURRET_PORT, baud_rate=9600)
         commands = [
             ["full", ""], 
             ["half", ""], 
