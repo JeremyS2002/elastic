@@ -3,10 +3,12 @@ Elastic band gun equipt with facial recognition
 
 # Software
 - Put photos of yourself into the db directory then run
+- Upload main.ino to the arduino and check the port, if not ttyACM0 then change the constant in main.py
 ```bash
 git clone https://github.com/JeremyS2002/elastic.git && cd elastic
 ./download.sh
 python3 embed.py
+python3 main.py
 ```
 
 ## Hardware
