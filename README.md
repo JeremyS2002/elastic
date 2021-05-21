@@ -6,6 +6,7 @@ Elastic band gun equipt with facial recognition
 - 28BYJ-48 stepper motor
 - ULN2003 stepper driver
 - MG 996R servo motor
+- Light webcam (I don't know the name of the one I have)
 
 Wiring
 Pitch servo control wire (Orange) pin 8
