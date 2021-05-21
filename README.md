@@ -1,6 +1,14 @@
 # elastic
 Elastic band gun equipt with facial recognition
 
+# Software
+- Put photos of yourself into the db directory then run
+```bash
+git clone https://github.com/JeremyS2002/elastic.git && cd elastic
+./download.sh
+python3 embed.py
+```
+
 ## Hardware
 - Arduino Uno
 - 28BYJ-48 stepper motor
