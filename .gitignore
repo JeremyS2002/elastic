@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# face encoding
+face_enc
+
+# my face
+db
+
+# don't upload audio files
+audio
+
+# don't upload opencv haar cascade
+haarcascade_frontalface_default.xml
