@@ -1,6 +1,11 @@
 # elastic
 Elastic band gun equipt with facial recognition
 
+# Thoughts
+The design was done in blender which was a mistake. I need to learn a cad program. Additionally the pitch and yaw was applied in the wrong order which meant that the video stream had to be counter rotated to get the haar cascade to work.
+
+Initially I planned to catagorise people via faces into friendly and not friendly via a database. The single threaded implementation turned out to be too slow for real time usage but multithreading the clasification and tracking the face as unknown until the second thread completes should provide a method for classifying people.
+
 # Software
 - Put photos of yourself into the db directory then run
 - Upload main.ino to the arduino and check the port, if not ttyACM0 then change the constant in main.py
